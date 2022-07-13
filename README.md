@@ -1,2 +1,3 @@
 # Gerald
-User tracking tool for Reddit usage
+
+Tracking tool for visualizing and analyzing Reddit usage by subreddit or redditor.
