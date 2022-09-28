@@ -17,15 +17,21 @@ u.close()
 reddit = praw.Reddit()
 verbose = False
 
-
 def investigateSubreddit():
-	print()
+	# TODO
+	print("Provides basic information about designated subreddit")
 
 def investigateUser():
-	print()
+	# TODO
+	print("Provides basic information about designated user")
 
-def search():
-	print()
+def searchForUser():
+	# TODO
+	print("Find user based on common keywords or subreddit activities")
+
+def botUser():
+	# TODO
+	print("Tries to determine if user is bot")
 
 if (len(input()) == 2):
 	try:
@@ -80,7 +86,9 @@ while(True):
 	elif(input() == '2'):
 		investigateUser()
 	elif(input() == '3'):
-		search()
+		searchForUser()
+	elif(input() == '4'):
+		botUser()
 	else:
 		break
 
